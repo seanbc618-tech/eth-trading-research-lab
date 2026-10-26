@@ -19,3 +19,9 @@ The verification script checks extraction hashes, Python import dependencies, su
 No third-party source was downloaded or newly vendored for this release. At the owner's explicit direction, the public repository is distributed under the MIT License. See `LICENSE` and `NOTICE`.
 
 本次未下载或引入第三方源码。按照项目所有者明确要求，本公共仓库采用 MIT 许可证，详见 `LICENSE` 和 `NOTICE`。
+
+## Public historical extension / 公开历史扩展
+
+`src/quantlab/empirical.py` and `scripts/verify_empirical.py` add a public-source case using the existing teaching strategy and generic execution/accounting modules. They do not read private project files. Public provider archive URLs and hashes are pinned in `research/eth_case/source_manifest.json`; original archives are fetched into ignored outputs and not committed. Derived analysis has the separate license notice in that directory. The initial extraction manifest continues to identify the unchanged copied core.
+
+公开历史扩展仅使用公共数据源、既有教学策略和通用执行账本，不读取私有工程文件。源归档不提交，报告另列数据许可；原提取清单及复制内核保持不变。

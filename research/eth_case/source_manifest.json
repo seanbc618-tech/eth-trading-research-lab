@@ -1,0 +1,231 @@
+{
+  "provider": "Binance Vision",
+  "dataset_terms": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "files": [
+    {
+      "month": "2022-12",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2022-12.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2022-12.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "6f704c3ed1be5ce404b5ca53e733e42b005308714218ff9e21d15e7cfb128f01",
+      "csv_sha256": "7e9049be44454941a8f8129408dafe270d3e3d6482c29368f1f776d97c7c6541",
+      "csv_bytes": 115668
+    },
+    {
+      "month": "2023-01",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-01.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-01.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "6a646f674ecfa736db1e6fd0c4ebaf26594806efde851f2c7081aec533714e3d",
+      "csv_sha256": "132837873922a422e2250d46dda184bd8ee566147ef96c5902e5181f36d6b120",
+      "csv_bytes": 116280
+    },
+    {
+      "month": "2023-02",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-02.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-02.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "c23f2ce377caba0279a932cfea93701bd02c996879293c5c395eaba06a943039",
+      "csv_sha256": "30a8abc16aec4c4e7b68d593f2803e02feb2907be6b4e8d4dfdf2764f571ea7d",
+      "csv_bytes": 105298
+    },
+    {
+      "month": "2023-03",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-03.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-03.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "90d268be1e0d39f7411f88ca3c0f21fe110fee7ff3c1dd054555e1fea6e22d8d",
+      "csv_sha256": "4d930367eecf6c12d31b4eee03a200664566fc7de278bbb8f11eb7879cde89cd",
+      "csv_bytes": 116873
+    },
+    {
+      "month": "2023-04",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-04.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-04.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "36598c7b9ac93706b8c9f9e6da11bc2137f605c442dab139ac35e397efcd9473",
+      "csv_sha256": "9931a52b8e6ebad5b9303037dc6bc951468e929ce05c4c659dedc61804b9b640",
+      "csv_bytes": 112887
+    },
+    {
+      "month": "2023-05",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-05.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-05.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "e03f762cd90b9a4eb6bf3499a05f4df84a71fd23f18d8b1b9c2e88eb469b0f2e",
+      "csv_sha256": "4a8ab79d89ffffbb7c74599dc412641f051cdbf63ce407cd75027969968e0cb5",
+      "csv_bytes": 116146
+    },
+    {
+      "month": "2023-06",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-06.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-06.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "7ca4b8f6f6ff04f6899fe49b68df2c7b60841dfadb4a334631491af2d192bfbf",
+      "csv_sha256": "bf27a4d05436390a5b25181a294d0a423c8e29fed12bbc18b8b86e2553698e0f",
+      "csv_bytes": 112175
+    },
+    {
+      "month": "2023-07",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-07.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-07.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "b141e7b3ec07f24756b1c5c27b562acfe06d331678a49c493a5fa2cba44eb97a",
+      "csv_sha256": "c4e277cd85cb01891adaee2b13f7ae32df5179c4ceea46f5d34ee5cb2a78a19e",
+      "csv_bytes": 115172
+    },
+    {
+      "month": "2023-08",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-08.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-08.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "25930d0ba8280ec82b879d130071582c3ee4d5a1fbe31dc34c016b2c314d3525",
+      "csv_sha256": "e55a80abddd031d11b61c58cca1d6e974ee04620b0fecc10c769dc074ad96d42",
+      "csv_bytes": 114973
+    },
+    {
+      "month": "2023-09",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-09.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-09.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "3453dc6570a7193ab358e5a4c592439b4073028b1ab09412610d9409cf330219",
+      "csv_sha256": "1048dbae1ff1a402d4d0849b7045b384d78ef68a3dafa469eab571c4a6ca6701",
+      "csv_bytes": 111223
+    },
+    {
+      "month": "2023-10",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-10.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-10.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "d91229dd47c4cf53b8e326b500295a4fb9f0316faca0e2149076065bc53ae049",
+      "csv_sha256": "cecbe87c6fa8d106f27b5d37509beb71c6c8b17b648d725b1ff4f96ad436f55c",
+      "csv_bytes": 115527
+    },
+    {
+      "month": "2023-11",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-11.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-11.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "2be46057e4a5b40b4b7c6bdf5b163aa22e353048e62907e730cd471fbf3a62b5",
+      "csv_sha256": "938f1805b79026c742855aceb92f250c822c9795590897cd2a26324ac865a094",
+      "csv_bytes": 112576
+    },
+    {
+      "month": "2023-12",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-12.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2023-12.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "89ec0d0b4f4ee72f4f1c2fad52ec1d94435d525bb107ae23d6f9716c77dbc428",
+      "csv_sha256": "786ef818fb7269126a4bbd09380604acb9292eaddc9fbb7238b2608337d741ee",
+      "csv_bytes": 116574
+    },
+    {
+      "month": "2024-01",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-01.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-01.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "1fdb3a8fa6b77ef30ef17ed4b71b184172ef1f812d83bd0f50bbd08e71a92057",
+      "csv_sha256": "eee210a77ec7c90b2bbf586672894df340f1f0ad27a97295a6f56345f192f35a",
+      "csv_bytes": 116621
+    },
+    {
+      "month": "2024-02",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-02.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-02.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "f080ff288b2f7e85e78c5370a8a3258b93f85531ff96b4131c1b7889649a8ba4",
+      "csv_sha256": "0357f07d001455c263da045a54b8359dc5fc2330732ac4117d81a8afcf6d8c6b",
+      "csv_bytes": 109184
+    },
+    {
+      "month": "2024-03",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-03.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-03.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "4eb16ab0c5db15e5e0d77827f5c19c215c7ce601a5501d9563b75bda7602f46e",
+      "csv_sha256": "7b0adde85a632f924725e135d7499ccf58c60f5b4827ce9b0fcfe8280cf0fb8a",
+      "csv_bytes": 117360
+    },
+    {
+      "month": "2024-04",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-04.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-04.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "8b710fad720ae0bc75eaded37b3add95ca49122ae398f3f6e33e57e864da781e",
+      "csv_sha256": "738a68bbef7715555dc763e1cb0591482e278fb40e0ad1847dc852a02056b0af",
+      "csv_bytes": 113069
+    },
+    {
+      "month": "2024-05",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-05.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-05.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "0307d64f0d9ae6ff4001442a014d7b02dcbc5a003dcc36ba139f1c9695996b51",
+      "csv_sha256": "a924200708df4730346d10f076c1f2001ce0297a945d2c78a9ebb29dece98f3a",
+      "csv_bytes": 116530
+    },
+    {
+      "month": "2024-06",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-06.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-06.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "59ee6920bd72d93d1130c89711c93ea192bbfd5f82b548dcb0448f66450f6a06",
+      "csv_sha256": "646d754e5a1bfb2726c188b3b36e77addb6b421103912cb6527edcb059866b30",
+      "csv_bytes": 112383
+    },
+    {
+      "month": "2024-07",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-07.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-07.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "83181cfcc1f1e32a542e2c220cbd58acd1c550cc64ad1e2c414e47088266aa7c",
+      "csv_sha256": "fd9142051e9cf193c744d61e25b7b0addccace4e0b4a694f623da7ae6f44f810",
+      "csv_bytes": 116290
+    },
+    {
+      "month": "2024-08",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-08.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-08.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "d908255a48978f6acb769c4b856a3307c58a8c19dbf2b3b7f10067245d5e8b89",
+      "csv_sha256": "00e15772abddace92de1f32e445678d6393bd21fa168e1ba859063f65080d7c2",
+      "csv_bytes": 116494
+    },
+    {
+      "month": "2024-09",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-09.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-09.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "bfbdda97d03abac469199120ec3c2f1305e2d5947e9155ff84dbeafe33cd4a67",
+      "csv_sha256": "484ab5341b08e58d387c1cff60a65927862dc46702583ec88bd2eff8dcfe5969",
+      "csv_bytes": 112383
+    },
+    {
+      "month": "2024-10",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-10.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-10.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "cbb13664485b6c9a6365da7ae23299b722ab5926a6aed516add486ef501883bc",
+      "csv_sha256": "681f1e7a39ebabfee96d195c19263f55be6cea730e404859b53a1f98425e912e",
+      "csv_bytes": 116376
+    },
+    {
+      "month": "2024-11",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-11.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-11.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "29cd30419b86d5dff5467a7a81d43e492aaaeb3669db216ab8badaad5fe610ec",
+      "csv_sha256": "0fd723b73e80a6a6a592f78d36127c50441b16647680b35d4539b38a275e8433",
+      "csv_bytes": 114112
+    },
+    {
+      "month": "2024-12",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-12.zip",
+      "checksum_url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/ETHUSDT-1h-2024-12.zip.CHECKSUM",
+      "status": "AVAILABLE",
+      "zip_sha256": "84312b7dc2b5c903853c78d94f587ef1d24b7960d7bd95f5bfe3afc3db006203",
+      "csv_sha256": "de826c08b5a4e290557c0bbf27762b49db2ea0df101facd6fd7b8bafffda3c95",
+      "csv_bytes": 117642
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "case_id": "ETH-SPOT-TEACHING-001",
+  "protocol_sha256": "2caacccbf9c9557a7005f005ee90adf06c286c32c3918ac47f6d77331738b0dd",
+  "source_manifest_sha256": "45a19d855953a0e93d3a07b3d4a9757f68f0199ecb322445007ac8b78a9910b3",
+  "results": {
+    "development_2023/zero/teaching_mean_4": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "development_2023/zero/buy_hold_10pct": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "development_2023/base/teaching_mean_4": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "development_2023/base/buy_hold_10pct": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "development_2023/stress/teaching_mean_4": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "development_2023/stress/buy_hold_10pct": {
+      "status": "INVALID_DECLARED_GAP",
+      "metrics": null
+    },
+    "oos_2024/zero/teaching_mean_4": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "9823.558947",
+        "return_fraction": "-0.0176441053",
+        "exit_cost_adjusted_equity": "9823.558947000000",
+        "exit_cost_adjusted_return_fraction": "-0.017644105300",
+        "estimated_terminal_exit_cost": "0E-12",
+        "max_hourly_close_drawdown_fraction": "0.03820178512851561267525820249",
+        "net_pnl": "-176.441053",
+        "realized_gross": "-176.441053",
+        "unrealized_gross": "0",
+        "fees_paid": "0.000000",
+        "slippage_paid": "0E-12",
+        "turnover": "1366213.590823",
+        "fill_count": 1362,
+        "risk_rejection_reasons": {
+          "order_rate_limit": 2452
+        },
+        "open_base_quantity": "0.0000",
+        "hours_with_position": 2111,
+        "quarterly_returns": {
+          "2024-Q1": "0.0099486993",
+          "2024-Q2": "-0.0059229577741384987592903968",
+          "2024-Q3": "0.001301239821317209715687896",
+          "2024-Q4": "-0.0227971085903118779338525328"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "b2e098d53ed0cd76f03c1a53933c755b571bfde3672bff4241cba93d0aef8f3f",
+      "daily_equity_sha256": "0cd8916e3fd37f2cf94c666c9a7ba82e619f39820613a916d29c89631d2227b5"
+    },
+    "oos_2024/zero/buy_hold_10pct": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "10462.699762000000",
+        "return_fraction": "0.046269976200",
+        "exit_cost_adjusted_equity": "10462.699762000000",
+        "exit_cost_adjusted_return_fraction": "0.046269976200",
+        "estimated_terminal_exit_cost": "0E-12",
+        "max_hourly_close_drawdown_fraction": "0.07712702559345280814190242118",
+        "net_pnl": "462.699762000000",
+        "realized_gross": "0",
+        "unrealized_gross": "462.699762000000",
+        "fees_paid": "0.000000",
+        "slippage_paid": "0E-12",
+        "turnover": "999.915434",
+        "fill_count": 1,
+        "risk_rejection_reasons": {},
+        "open_base_quantity": "0.4382",
+        "hours_with_position": 8784,
+        "quarterly_returns": {
+          "2024-Q1": "0.059745064400",
+          "2024-Q2": "-0.0085647359019679337135490791",
+          "2024-Q3": "-0.0348639443786388460394077448",
+          "2024-Q4": "0.031785589328175817576458437"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "26f3a63282e7be8822afcd2fbb233fd69622050573fd82665eb6333d4ae68e82",
+      "daily_equity_sha256": "fc976992e3feeb03a3f9b88eaba76fb401cdb2d861b9b115fe0532c2873a7c96"
+    },
+    "oos_2024/base/teaching_mean_4": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "9024.517268415",
+        "return_fraction": "-0.0975482731585",
+        "exit_cost_adjusted_equity": "9024.517268415000",
+        "exit_cost_adjusted_return_fraction": "-0.0975482731585",
+        "estimated_terminal_exit_cost": "0E-12",
+        "max_hourly_close_drawdown_fraction": "0.1002362633097647752085959635",
+        "net_pnl": "-975.482731585",
+        "realized_gross": "-313.029961",
+        "unrealized_gross": "0",
+        "fees_paid": "662.452770585",
+        "slippage_paid": "332.381075000000",
+        "turnover": "662452.770585",
+        "fill_count": 694,
+        "risk_rejection_reasons": {
+          "drawdown_limit": 2238,
+          "order_rate_limit": 1256
+        },
+        "open_base_quantity": "0.0000",
+        "hours_with_position": 1074,
+        "quarterly_returns": {
+          "2024-Q1": "-0.0406040965543",
+          "2024-Q2": "-0.0553677090075322242598141339",
+          "2024-Q3": "-0.0042201513900083672716660718",
+          "2024-Q4": "0"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "2d9913cec39a83e40c2254cf2a38e96364a18296b33abe37fbce6e19dd84dd56",
+      "daily_equity_sha256": "e43a025848464f23843f63817e5023be1d657a0c9337960dd5da46f98f0a5990"
+    },
+    "oos_2024/base/buy_hold_10pct": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "10460.984917240000",
+        "return_fraction": "0.046098491724",
+        "exit_cost_adjusted_equity": "10458.792241060000",
+        "exit_cost_adjusted_return_fraction": "0.045879224106",
+        "estimated_terminal_exit_cost": "2.192676180000",
+        "max_hourly_close_drawdown_fraction": "0.07710513056039818756479665969",
+        "net_pnl": "460.984917240000",
+        "realized_gross": "0",
+        "unrealized_gross": "461.984880000000",
+        "fees_paid": "0.999962760",
+        "slippage_paid": "0.503700000000",
+        "turnover": "999.962760",
+        "fill_count": 1,
+        "risk_rejection_reasons": {},
+        "open_base_quantity": "0.4380",
+        "hours_with_position": 8784,
+        "quarterly_returns": {
+          "2024-Q1": "0.059567429724",
+          "2024-Q2": "-0.0085622620566613531407232227",
+          "2024-Q3": "-0.0348537872807624739820693875",
+          "2024-Q4": "0.031775994653041455556987761"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "297127728c67d7b31d80afdc0110853729a9e00b5afe3af2b8a958d9dca60f14",
+      "daily_equity_sha256": "e4e77daaf7d659a6ffc6ee4c89f7742323cc419edbeeb9f4726bd41ea4534b8c"
+    },
+    "oos_2024/stress/teaching_mean_4": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "9016.517313412",
+        "return_fraction": "-0.0983482686588",
+        "exit_cost_adjusted_equity": "9016.517313412000",
+        "exit_cost_adjusted_return_fraction": "-0.0983482686588",
+        "estimated_terminal_exit_cost": "0E-12",
+        "max_hourly_close_drawdown_fraction": "0.1000861486431013165166292467",
+        "net_pnl": "-983.482686588",
+        "realized_gross": "-305.807030",
+        "unrealized_gross": "0",
+        "fees_paid": "677.675656588",
+        "slippage_paid": "339.430408000000",
+        "turnover": "338837.828294",
+        "fill_count": 356,
+        "risk_rejection_reasons": {
+          "drawdown_limit": 3330,
+          "order_rate_limit": 633
+        },
+        "open_base_quantity": "0.0000",
+        "hours_with_position": 609,
+        "quarterly_returns": {
+          "2024-Q1": "-0.0885398674526",
+          "2024-Q2": "-0.0107611960808279448314419341",
+          "2024-Q3": "0",
+          "2024-Q4": "0"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "5ed1c02a56a4aae0b21d0ddd779c3d62e10bd2ef04b7b9184e41b4fef27f337e",
+      "daily_equity_sha256": "917385d770f458a58aec2584c4d14ca6cac8fad82efd98133efc1b955df743a6"
+    },
+    "oos_2024/stress/buy_hold_10pct": {
+      "status": "VALID",
+      "metrics": {
+        "starting_equity": "10000",
+        "ending_marked_equity": "10459.169920336000",
+        "return_fraction": "0.0459169920336",
+        "exit_cost_adjusted_equity": "10454.789033560000",
+        "exit_cost_adjusted_return_fraction": "0.045478903356",
+        "estimated_terminal_exit_cost": "4.380886776000",
+        "max_hourly_close_drawdown_fraction": "0.07706685902933967457584230005",
+        "net_pnl": "459.169920336000",
+        "realized_gross": "0",
+        "unrealized_gross": "461.169474000000",
+        "fees_paid": "1.999553664",
+        "slippage_paid": "1.002333000000",
+        "turnover": "999.776832",
+        "fill_count": 1,
+        "risk_rejection_reasons": {},
+        "open_base_quantity": "0.4377",
+        "hours_with_position": 8784,
+        "quarterly_returns": {
+          "2024-Q1": "0.0593767047336",
+          "2024-Q2": "-0.0085579379454826077836746153",
+          "2024-Q3": "-0.0348360334951042913353430204",
+          "2024-Q4": "0.031759224421832079551530842"
+        },
+        "bar_count": 8784
+      },
+      "fills_sha256": "cb407edcb19b593135659b5bf746323932c2436af50de5271f4a394431db1927",
+      "daily_equity_sha256": "b064a5aa27d92235a91bcd69b7b3a6d6bd4f7c64d645e571e8b9ea2905cc75ea"
+    }
+  },
+  "cash_return_fraction": "0",
+  "oos_interpretation": "retrospective chronological split, no parameter tuning or prospective claim",
+  "result_sha256": "f7f0b710a293a13f628d0ae3804ba023070f1702cc8a66b2dd5e5c1756c30c5c"
+}

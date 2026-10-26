@@ -30,9 +30,9 @@ The selected regression suite has 43 passing tests. Integration checks demonstra
 
 所选回归套件有 43 项通过。集成检查覆盖结果复现、会计恒等式、成交前风险拒绝、时序前缀一致性、缺口拒绝与策略替换。README 提供源文件来源及验证条件的链接。
 
-This establishes bounded engineering behavior under the tested assumptions. It does not establish alpha, real ETH performance, statistical significance, production readiness or a complete implementation of the original private project. There is no empirical market study in this release.
+This establishes bounded engineering behavior under the tested assumptions. It does not establish alpha, actual executed ETH returns, statistical significance, production readiness or a complete implementation of the original private project. A separate public ETH case now reports a negative retrospective result with explicit fees, slippage and a chronological split; its invalid development interval and modeling limits are disclosed.
 
-这些证据只支持已测试假设下的有限工程行为，不证明 alpha、真实 ETH 表现、统计显著性、生产可用性，也不代表原私有项目的完整实现。本版没有真实市场实证研究。
+这些证据只支持已测试假设下的有限工程行为，不证明 alpha、真实成交收益、统计显著性、生产可用性，也不代表原私有项目的完整实现。新增公开 ETH 案例报告负面的回顾性实证结果，明确手续费、滑点、时间切分、无效开发区间和模型限制。
 
 ## Development and attribution / 开发与署名
 

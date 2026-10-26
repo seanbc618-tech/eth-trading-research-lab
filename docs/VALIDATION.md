@@ -28,9 +28,9 @@ result_sha256:
 a18d5b357b176f63a8cea659eeb400c26c92b39a5f195e31c7f3890868f94523
 ```
 
-The sample contains 96 artificial hourly bars and 8 simulated fills. The reference is an engineering fixture, not a return forecast. No real data, holdout study, prospective trading, exchange execution, or profitability validation was performed.
+The sample contains 96 artificial hourly bars and 8 simulated fills. The reference is an engineering fixture, not a return forecast. This initial synthetic validation did not use real data. A separate public historical case is now documented below; no prospective trading or exchange execution was performed.
 
-示例包含 96 根合成小时行情及 8 笔模拟成交。未运行真实数据、封存样本、前瞻交易或实盘验证，未得出盈利能力结论。
+示例包含 96 根合成小时行情及 8 笔模拟成交。初始合成验证未使用真实数据；新增公开历史案例见下文。未运行前瞻交易或实盘验证，未得出盈利优势结论。
 
 ## Recheck / 复核
 
@@ -43,3 +43,13 @@ python3 scripts/verify.py
 `RELEASE_FILES.sha256` 标识公开版本中的文件，不包含清单自身和运行输出目录。复制源文件哈希由验证脚本检查，整个交付目录可额外使用上述 `shasum` 命令核对。
 
 Pattern scans and synthetic tests are bounded evidence. They are not a security audit, a proof of no hidden defects, or an economic validation. The owner selected the MIT License for the public release.
+
+## Public historical case / 公开历史案例
+
+See [the case report](../research/eth_case/README.md). `scripts/verify_empirical.py` uses synthetic hand-calculable fixtures to check flat behavior, buy-and-hold accounting, per-side fees, hypothetical terminal exit costs, missing-bar nulls, next-open execution, prefix consistency and repeated-run equality. The original 43 regression tests remain unchanged.
+
+The full historical replay checks each downloaded ZIP and decompressed CSV against pinned SHA-256 values, rejects incomplete evaluation ranges, reconciles incremental and recovered SQLite ledgers, and compares the complete result JSON, daily equity CSV and generated report against the published reference. Raw archives and fills remain in ignored local outputs.
+
+合成可手算用例验证历史入口的会计、费用、期末退出成本、缺口留空和时序。完整历史复现另外核对源归档哈希、SQLite 重建账本、全量结果与每日权益。2023 因真实源缺口无效；2024 结果为负面教学证据，详见案例。
+
+Full historical rerun matched `f7f0b710a293a13f628d0ae3804ba023070f1702cc8a66b2dd5e5c1756c30c5c`, all reported run metrics and fill hashes, daily equity bytes and generated report bytes. Six development combinations remain INVALID_DECLARED_GAP/null; six 2024 evaluation combinations are valid. This result does not alter the initial synthetic reference hash.

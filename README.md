@@ -2,17 +2,17 @@
 
 **Offline trade simulation, risk controls and recoverable accounting in Python.**
 
-[中文](README.zh-CN.md) · [Project overview](docs/PROJECT_OVERVIEW.md) · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md) · [MIT License](LICENSE)
+[中文](README.zh-CN.md) · [Project overview](docs/PROJECT_OVERVIEW.md) · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md) · [Code license: MIT](LICENSE)
 
 This project extracts reusable engineering components from a personal ETH trading project into a small, reproducible research framework. It follows a trade from a decision based on confirmed candles through position sizing, risk review, simulated execution and ledger recovery.
 
-**ETH describes the project's origin.** The public demo uses a fictional `DEMO-USD-LINEAR` instrument and generated prices, not historical ETH data. It runs entirely offline and cannot connect to an exchange or place live orders.
+The synthetic demo uses a fictional `DEMO-USD-LINEAR` instrument. A separate [public ETH historical case](research/eth_case/README.md) evaluates the unchanged teaching rule on ETHUSDT spot data with explicit costs and chronological validation. Data download uses a public archive; backtests run offline, with no account access or live orders.
 
 ## The problem
 
 A backtest can produce a plausible equity curve even when its mechanics are wrong: a signal may use information that was unavailable at decision time, contract units may be confused with notional exposure, or a fill may be counted twice after a restart.
 
-This repository makes those mechanics inspectable. Its main question is: **can the path from a trading decision to its accounting outcome be reproduced and checked?** Strategy profitability is outside the evidence provided by this release.
+This repository makes those mechanics inspectable. Its main question is: **can the path from a trading decision to its accounting outcome be reproduced and checked?** The historical case also reports economic results, including losses, without claiming a profitable strategy.
 
 ## Design and evidence
 
@@ -72,6 +72,21 @@ Windows PowerShell: set `$env:PYTHONPATH="src"`, then use `python -m quantlab.de
 
 See the [validation record](docs/VALIDATION.md) for commands, conditions and result identity. These are engineering checks on synthetic fixtures, not evidence of a profitable ETH strategy.
 
+## Public ETH historical evidence
+
+The [fixed-protocol case](research/eth_case/README.md) uses 2023 as its declared development interval and 2024 as its later evaluation. A verified source gap invalidates the entire 2023 segment; its metrics remain null. No replacement year or gap filling is used.
+
+In 2024, the teaching strategy returns **−9.7548%** after the base assumptions of 10 bps fees and 5 bps adverse slippage per side, versus **+4.6098%** for a 10%-allocation buy-and-hold benchmark (marked equity). It also loses **1.7644%** at zero cost. The base risk gate later blocks new entries; cost scenarios therefore have different trade paths. These are full-account returns, not returns on allocated capital.
+
+[All scenarios and quarterly results](research/eth_case/RESULTS.md) are published, including the invalid development runs. This is a retrospective chronological test without parameter optimization, not prospective validation or a completed fit-and-validate study.
+
+```bash
+python3 scripts/verify_empirical.py
+PYTHONPATH=src python3 -m quantlab.empirical --fetch --check-reference
+```
+
+The downloader checks provider and pinned SHA-256 values. Later runs omit `--fetch` and replay cached data offline. Code remains MIT; [dataset-derived results have separate terms](research/eth_case/LICENSE.md).
+
 ## Strategy interface
 
 A strategy implements `on_confirmed_candle(context)` and returns a `SignalProposal` or `None`. The example compares the latest close with a four-bar trailing mean and requests long or flat exposure. The host determines quantity and applies the risk gate; the strategy does not maintain a separate ledger.
@@ -83,7 +98,7 @@ A strategy implements `on_confirmed_candle(context)` and returns a `SignalPropos
 - The demo uses artificial prices, fixed fees and fixed adverse slippage, with full fills at the next bar's open. It does not model funding, liquidation, market impact or order-book liquidity.
 - It supports one long/flat instrument. End-of-run positions are marked to market rather than forcibly closed. Final-bar signals without a following bar remain pending.
 - The core includes separately tested funding and candle-based partial-fill primitives; the default demo does not exercise them.
-- The public release contains no real-market study, out-of-sample performance evaluation or live-trading validation. It does not establish an investment edge or production readiness.
+- The historical case is a single-pair retrospective evaluation with an invalid development interval. It provides no prospective validation, investment-edge evidence or production-readiness claim.
 
 ## Code and documentation
 
@@ -103,4 +118,4 @@ The generic core was selected from the owner's existing project. The public extr
 
 Private strategies, research parameters, real datasets, account records, deployment materials and original Git history are excluded. The public repository documents the implemented system and its checks; it does not establish who independently authored each original component.
 
-Released under the [MIT License](LICENSE). See [NOTICE](NOTICE).
+Framework code is released under the [MIT License](LICENSE). The ETH case's dataset-derived reports and series are [CC BY-NC-SA 4.0](research/eth_case/LICENSE.md), subject to provider terms. See [NOTICE](NOTICE).

@@ -4,7 +4,7 @@ Source: Binance Vision public ETHUSDT spot hourly kline archives, https://data.b
 
 Dataset terms: https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md (version 1.0, last updated August 26, 2026; checked October 26, 2026).
 
-The empirical reports, metrics, equity series and figures in this directory are derived from that dataset and are provided under **CC BY-NC-SA 4.0**, subject to the source dataset terms. Attribution: Binance Vision (underlying market data); seanbc618-tech / ETH Trading Research Lab (research transformations and reports, AI-assisted). No Binance sponsorship or endorsement is implied.
+The empirical reports, metrics, equity series and figures in this directory, and numerical excerpts from them elsewhere in this repository, are derived from that dataset and are provided under **CC BY-NC-SA 4.0**, subject to the source dataset terms. Attribution: Binance Vision (underlying market data); seanbc618-tech / ETH Trading Research Lab (research transformations and reports, AI-assisted). No Binance sponsorship or endorsement is implied.
 
 License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
