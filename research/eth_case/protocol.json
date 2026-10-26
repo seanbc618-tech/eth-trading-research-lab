@@ -1,0 +1,38 @@
+{
+  "case_id": "ETH-SPOT-TEACHING-001",
+  "declared_before_download_and_results": true,
+  "design_date": "2026-10-26",
+  "source_base": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1h/",
+  "source_documentation": "https://github.com/binance/binance-public-data",
+  "dataset_terms": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "symbol": "ETHUSDT",
+  "interval_seconds": 3600,
+  "download_months": ["2022-12", "2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12", "2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12"],
+  "segments": [
+    {"name": "development_2023", "start": "2023-01-01T00:00:00+00:00", "end_exclusive": "2024-01-01T00:00:00+00:00"},
+    {"name": "oos_2024", "start": "2024-01-01T00:00:00+00:00", "end_exclusive": "2025-01-01T00:00:00+00:00"}
+  ],
+  "strategy": "existing TeachingMeanStrategy(window=4); close above trailing mean => long, otherwise flat; no optimization",
+  "warmup_bars": 4,
+  "initial_equity_usdt": "10000",
+  "entry_equity_fraction": "0.1",
+  "leverage": "1",
+  "price_tick": "0.01",
+  "base_step": "0.0001",
+  "min_notional": "1",
+  "instrument_rules": "fixed research quantization assumptions, not reconstructed historical exchange filters",
+  "risk_limits": {"order_notional": "1500", "gross_notional": "1500", "daily_loss": "500", "drawdown": "1000", "orders_per_24h": 4},
+  "costs": [
+    {"name": "zero", "fee_rate_per_side": "0", "slippage_bps_per_side": "0"},
+    {"name": "base", "fee_rate_per_side": "0.001", "slippage_bps_per_side": "5"},
+    {"name": "stress", "fee_rate_per_side": "0.002", "slippage_bps_per_side": "10"}
+  ],
+  "execution": "decision after confirmed close, execution at immediately following hourly open, full fills plus adverse tick-rounded slippage",
+  "portfolio": "single-asset long/flat, 10% of current equity allocated per new entry, no continuous rebalance; idle cash earns zero; no borrowing, funding or interest",
+  "benchmark": "buy and hold 10% of initial equity at first segment open, same fee/slippage and quantization, no rebalance; remaining 90% cash; cash-only return zero",
+  "segment_boundary": "each segment starts flat with 10000 USDT; prior 4 bars for feature warmup only; no trading during warmup; prior final confirmed signal may execute at first segment open",
+  "terminal": "primary return uses marked final equity; report hypothetical exit-cost-adjusted equity separately; no final-bar signal execution without next bar",
+  "missing_data": "source-absent archive or missing bar => INVALID_DECLARED_GAP and null results for affected segment; no fill-forward, shortened segment or substituted source; checksum or malformed data => abort",
+  "statistics": "full-year returns and drawdowns, fees/slippage paid, turnover, fills, risk rejection reasons, OOS calendar-quarter returns from continuous equity; no significance, alpha or prospective claims",
+  "selection": "one ETH pair and existing 4-bar rule chosen for teaching; no parameter sweep; periods chosen by calendar before fetching, not by returns"
+}
