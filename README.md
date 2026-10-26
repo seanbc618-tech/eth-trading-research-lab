@@ -1,12 +1,14 @@
 # ETH Trading Research Lab
 
-**Offline trade simulation, risk controls and recoverable accounting in Python.**
+**Reproducible trading-system engineering: event timing, risk controls and recoverable accounting.**
 
-[中文](README.zh-CN.md) · [Project overview](docs/PROJECT_OVERVIEW.md) · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md) · [Code license: MIT](LICENSE)
+[中文](README.zh-CN.md) · [Project overview](docs/PROJECT_OVERVIEW.md) · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md) · [Historical results](research/eth_case/RESULTS.md) · [Code license: MIT](LICENSE)
 
 This project extracts reusable engineering components from a personal ETH trading project into a small, reproducible research framework. It follows a trade from a decision based on confirmed candles through position sizing, risk review, simulated execution and ledger recovery.
 
-The synthetic demo uses a fictional `DEMO-USD-LINEAR` instrument. A separate [public ETH historical case](research/eth_case/README.md) evaluates the unchanged teaching rule on ETHUSDT spot data with explicit costs and chronological validation. Data download uses a public archive; backtests run offline, with no account access or live orders.
+Two evidence tracks support the project: synthetic fixtures for checking execution and accounting, and a [public ETH historical case](research/eth_case/README.md) for examining costs, data quality and chronological evaluation. Backtests run offline, with no account access or live orders.
+
+**Research status:** the teaching strategy lost money in every tested 2024 cost scenario and underperformed the benchmark; the 2023 development interval is invalid because of a source-data gap. [Full results](research/eth_case/RESULTS.md) and the [gap declaration](research/eth_case/DATA_GAP.md) remain public. No investment edge is claimed.
 
 ## The problem
 
@@ -37,6 +39,20 @@ flowchart LR
 
 The demo is intentionally small: one instrument, long/flat decisions and one execution path. The [project overview](docs/PROJECT_OVERVIEW.md) explains the scope and tradeoffs.
 
+## Verified behavior
+
+| Check | Observed result |
+|---|---|
+| Selected existing regression suite | 43 tests passed |
+| Default synthetic run | 96 hourly bars, 8 simulated fills |
+| USD 100 order-limit scenario | 46 rejected entry requests, zero fills and zero PnL |
+| Repeatability | Complete result matches the checked-in reference JSON |
+| Temporal consistency | Truncated-run equity matches the full-run prefix; missing bars are rejected |
+| Replaceability | No-trade and buy-once plugins run through the same host |
+| Recovery | Existing tests recover orders, fills and ledger state after reopening SQLite |
+
+See the [validation record](docs/VALIDATION.md) for commands, conditions and result identity. These are engineering checks on synthetic fixtures, not evidence of a profitable ETH strategy.
+
 ## Reproduce the demonstration
 
 Tested on **Python 3.13.7 / macOS**. Python 3.12 is the minimum target, but has not been separately tested. Only the Python standard library is required; no package installation or credentials are needed. After cloning, execution is offline.
@@ -58,34 +74,27 @@ PYTHONPATH=src python3 -m quantlab.demo --risk-limit 100 --output outputs/reject
 
 Windows PowerShell: set `$env:PYTHONPATH="src"`, then use `python -m quantlab.demo` and `python scripts/verify.py`. The package name `quantlab` is retained as an internal import path.
 
-## Verified behavior
+## Research method: a public ETH case
 
-| Check | Observed result |
+The historical case applies a fixed teaching rule to public ETHUSDT hourly data. Its value as a research example is the traceable procedure and its limits; the negative economic outcome is retained in full.
+
+| Method | Implementation and evidence |
 |---|---|
-| Selected existing regression suite | 43 tests passed |
-| Default synthetic run | 96 hourly bars, 8 simulated fills |
-| USD 100 order-limit scenario | 46 rejected entry requests, zero fills and zero PnL |
-| Repeatability | Complete result matches the checked-in reference JSON |
-| Temporal consistency | Truncated-run equity matches the full-run prefix; missing bars are rejected |
-| Replaceability | No-trade and buy-once plugins run through the same host |
-| Recovery | Existing tests recover orders, fills and ledger state after reopening SQLite |
+| Declare the experiment before inspecting results | [Protocol](research/eth_case/protocol.json) recorded before data download: fixed four-bar rule, calendar split, exposure and cost assumptions; no parameter search |
+| Verify source integrity and completeness | Provider and pinned ZIP/CSV SHA-256 checks; [source manifest](research/eth_case/source_manifest.json) |
+| Keep unavailable observations explicit | The entire 2023 interval is `INVALID_DECLARED_GAP` with null metrics; no filled prices, shortened interval or replacement year |
+| Evaluate execution costs and a baseline | Zero/base/stress costs on both trade sides; a 10%-initial-allocation buy-and-hold comparator; hypothetical terminal exit costs reported separately |
+| Separate mechanics from economic conclusions | The strategy loses in all tested cost scenarios; risk gates change the execution path. These facts do not establish alpha or production readiness |
+| Make the result independently inspectable | [All scenarios and quarterly results](research/eth_case/RESULTS.md), [machine-readable metrics](research/eth_case/results.json), and reproducible fill hashes |
 
-See the [validation record](docs/VALIDATION.md) for commands, conditions and result identity. These are engineering checks on synthetic fixtures, not evidence of a profitable ETH strategy.
-
-## Public ETH historical evidence
-
-The [fixed-protocol case](research/eth_case/README.md) uses 2023 as its declared development interval and 2024 as its later evaluation. A verified source gap invalidates the entire 2023 segment; its metrics remain null. No replacement year or gap filling is used.
-
-In 2024, the teaching strategy returns **−9.7548%** after the base assumptions of 10 bps fees and 5 bps adverse slippage per side, versus **+4.6098%** for a 10%-allocation buy-and-hold benchmark (marked equity). It also loses **1.7644%** at zero cost. The base risk gate later blocks new entries; cost scenarios therefore have different trade paths. These are full-account returns, not returns on allocated capital.
-
-[All scenarios and quarterly results](research/eth_case/RESULTS.md) are published, including the invalid development runs. This is a retrospective chronological test without parameter optimization, not prospective validation or a completed fit-and-validate study.
+2024 is a retrospective chronological evaluation, not an untouched prospective holdout. The invalid development interval prevents presenting this as a completed fit-and-validate study. All return figures, costs and benchmark comparisons remain in the linked report; no case or unfavorable result has been removed.
 
 ```bash
 python3 scripts/verify_empirical.py
 PYTHONPATH=src python3 -m quantlab.empirical --fetch --check-reference
 ```
 
-The downloader checks provider and pinned SHA-256 values. Later runs omit `--fetch` and replay cached data offline. Code remains MIT; [dataset-derived results have separate terms](research/eth_case/LICENSE.md).
+After the initial public download, omit `--fetch` to replay cached data offline. [Case documentation](research/eth_case/README.md) explains the assumptions and interpretation; [dataset-derived results have separate licensing terms](research/eth_case/LICENSE.md).
 
 ## Strategy interface
 
@@ -116,6 +125,6 @@ A strategy implements `on_confirmed_candle(context)` and returns a `SignalPropos
 
 The generic core was selected from the owner's existing project. The public extraction, teaching integration and bilingual documentation were prepared with AI assistance. An [extraction manifest](docs/EXTRACTION_MANIFEST.json) records the copied files and transformations; a [publication audit](docs/PUBLICATION_AUDIT.md) describes the release boundary.
 
-Private strategies, research parameters, real datasets, account records, deployment materials and original Git history are excluded. The public repository documents the implemented system and its checks; it does not establish who independently authored each original component.
+Private strategies, research parameters, private datasets, account records, deployment materials and original Git history are excluded. The public historical case downloads provider data separately and publishes attributed derived results. The public repository documents the implemented system and its checks; it does not establish who independently authored each original component.
 
 Framework code is released under the [MIT License](LICENSE). The ETH case's dataset-derived reports and series are [CC BY-NC-SA 4.0](research/eth_case/LICENSE.md), subject to provider terms. See [NOTICE](NOTICE).
