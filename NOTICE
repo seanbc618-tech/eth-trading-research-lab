@@ -1,0 +1,9 @@
+Quant Replay Lab
+
+Copyright (c) 2026 seanbc618-tech. Released under the MIT License; see LICENSE.
+
+Generic core code is extracted from the project owner's existing work. New teaching integration and documentation were prepared with AI assistance. Source hashes and extraction scope are recorded in docs/EXTRACTION_MANIFEST.json and docs/PROVENANCE.md.
+
+The license applies to the files in this public repository. Original private research strategies, datasets, accounts and deployment material are not included.
+
+本公共仓库采用 MIT 许可证。原私有策略、数据、账户及部署资料不属于本版内容。

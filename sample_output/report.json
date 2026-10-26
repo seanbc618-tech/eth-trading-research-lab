@@ -1,0 +1,1773 @@
+{
+  "dataset": "SYNTHETIC_TEACHING_ONLY",
+  "dataset_sha256": "8109fb39d97340294c7bd11b0e3e18488ae14593d45b236895be1af01fabb2b9",
+  "strategy": "teaching-mean-4",
+  "replay_sha256": "497e3250c642710a4f5a9c35062014453af66f28c8934237445089e2db35ebe9",
+  "assumptions": {
+    "fee_rate": "0.001",
+    "slippage_bps": "5",
+    "max_order_notional": "1500",
+    "exposure_fraction": "0.1",
+    "execution": "full fill at next bar open plus adverse slippage",
+    "funding": "not simulated"
+  },
+  "metrics": {
+    "starting_equity": "10000",
+    "ending_equity": "10364.85481500",
+    "net_pnl": "364.85481500",
+    "realized_pnl_gross": "373.33472",
+    "unrealized_pnl_gross": "0",
+    "fees": "8.47990500",
+    "return_fraction": "0.0364854815",
+    "max_drawdown_fraction": "0.001126194953771961443047284701",
+    "fill_count": 8,
+    "risk_rejections": 0,
+    "open_base_quantity": "0.000"
+  },
+  "pending_signal_ids": [
+    "signal-48f391bd58e1108839ab"
+  ],
+  "equity_curve": [
+    {
+      "time": "2024-01-01T01:00:00+00:00",
+      "equity": "10000",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T02:00:00+00:00",
+      "equity": "10000",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T03:00:00+00:00",
+      "equity": "10000",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T04:00:00+00:00",
+      "equity": "10000",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T05:00:00+00:00",
+      "equity": "10008.12082882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T06:00:00+00:00",
+      "equity": "10017.82382882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T07:00:00+00:00",
+      "equity": "10027.52682882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T08:00:00+00:00",
+      "equity": "10037.22982882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T09:00:00+00:00",
+      "equity": "10046.93282882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T10:00:00+00:00",
+      "equity": "10056.63582882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T11:00:00+00:00",
+      "equity": "10066.33882882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T12:00:00+00:00",
+      "equity": "10076.04182882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T13:00:00+00:00",
+      "equity": "10085.74482882",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-01T14:00:00+00:00",
+      "equity": "10076.04182882",
+      "drawdown": "0.0009620509109325959493762507989"
+    },
+    {
+      "time": "2024-01-01T15:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T16:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T17:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T18:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T19:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T20:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T21:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T22:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-01T23:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-02T00:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-02T01:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-02T02:00:00+00:00",
+      "equity": "10084.07649500",
+      "drawdown": "0.0001654150336257505475357525624"
+    },
+    {
+      "time": "2024-01-02T03:00:00+00:00",
+      "equity": "10092.26511596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T04:00:00+00:00",
+      "equity": "10102.04911596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T05:00:00+00:00",
+      "equity": "10111.83311596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T06:00:00+00:00",
+      "equity": "10121.61711596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T07:00:00+00:00",
+      "equity": "10131.40111596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T08:00:00+00:00",
+      "equity": "10141.18511596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T09:00:00+00:00",
+      "equity": "10150.96911596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T10:00:00+00:00",
+      "equity": "10160.75311596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T11:00:00+00:00",
+      "equity": "10170.53711596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T12:00:00+00:00",
+      "equity": "10180.32111596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T13:00:00+00:00",
+      "equity": "10190.10511596",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-02T14:00:00+00:00",
+      "equity": "10180.32111596",
+      "drawdown": "0.0009601471121898489633291427529"
+    },
+    {
+      "time": "2024-01-02T15:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T16:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T17:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T18:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T19:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T20:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T21:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T22:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-02T23:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-03T00:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-03T01:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-03T02:00:00+00:00",
+      "equity": "10178.62907100",
+      "drawdown": "0.001126194953771961443047284701"
+    },
+    {
+      "time": "2024-01-03T03:00:00+00:00",
+      "equity": "10186.71796972",
+      "drawdown": "0.0003323956133381750901786798608"
+    },
+    {
+      "time": "2024-01-03T04:00:00+00:00",
+      "equity": "10196.40596972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T05:00:00+00:00",
+      "equity": "10206.09396972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T06:00:00+00:00",
+      "equity": "10215.78196972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T07:00:00+00:00",
+      "equity": "10225.46996972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T08:00:00+00:00",
+      "equity": "10235.15796972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T09:00:00+00:00",
+      "equity": "10244.84596972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T10:00:00+00:00",
+      "equity": "10254.53396972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T11:00:00+00:00",
+      "equity": "10264.22196972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T12:00:00+00:00",
+      "equity": "10273.90996972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T13:00:00+00:00",
+      "equity": "10283.59796972",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-03T14:00:00+00:00",
+      "equity": "10273.90996972",
+      "drawdown": "0.0009420827251829821545475328421"
+    },
+    {
+      "time": "2024-01-03T15:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T16:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T17:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T18:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T19:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T20:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T21:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T22:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-03T23:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-04T00:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-04T01:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-04T02:00:00+00:00",
+      "equity": "10272.21515100",
+      "drawdown": "0.001106890677126493052664078237"
+    },
+    {
+      "time": "2024-01-04T03:00:00+00:00",
+      "equity": "10280.20637736",
+      "drawdown": "0.0003298060046674836785074062391"
+    },
+    {
+      "time": "2024-01-04T04:00:00+00:00",
+      "equity": "10289.80037736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T05:00:00+00:00",
+      "equity": "10299.39437736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T06:00:00+00:00",
+      "equity": "10308.98837736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T07:00:00+00:00",
+      "equity": "10318.58237736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T08:00:00+00:00",
+      "equity": "10328.17637736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T09:00:00+00:00",
+      "equity": "10337.77037736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T10:00:00+00:00",
+      "equity": "10347.36437736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T11:00:00+00:00",
+      "equity": "10356.95837736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T12:00:00+00:00",
+      "equity": "10366.55237736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T13:00:00+00:00",
+      "equity": "10376.14637736",
+      "drawdown": "0"
+    },
+    {
+      "time": "2024-01-04T14:00:00+00:00",
+      "equity": "10366.55237736",
+      "drawdown": "0.0009246207263356859772371687551"
+    },
+    {
+      "time": "2024-01-04T15:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T16:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T17:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T18:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T19:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T20:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T21:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T22:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-04T23:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    },
+    {
+      "time": "2024-01-05T00:00:00+00:00",
+      "equity": "10364.85481500",
+      "drawdown": "0.001088223117653522254049513395"
+    }
+  ],
+  "fills": [
+    {
+      "fill_id": "replay-fill-2f36fd288dd8fe24232b2732",
+      "order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "buy",
+      "price": "103.06",
+      "contract_quantity": "9.703",
+      "fee": "0.99999118",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-01T04:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-d151ac12014dedb2fb734b99",
+      "order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "sell",
+      "price": "111.94",
+      "contract_quantity": "9.703",
+      "fee": "1.08615382",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-01T14:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-dc599e5df1ca032713519117",
+      "order_id": "ethv2-7ddd5472018106fda4c661fb",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "buy",
+      "price": "103.06",
+      "contract_quantity": "9.784",
+      "fee": "1.00833904",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-02T02:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-fe092707e26a25b0e2903bdf",
+      "order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "sell",
+      "price": "112.94",
+      "contract_quantity": "9.784",
+      "fee": "1.10500496",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-02T14:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-f0883ad9513a6356cb598fd6",
+      "order_id": "ethv2-d7f3311220f94cd8d194759e",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "buy",
+      "price": "105.06",
+      "contract_quantity": "9.688",
+      "fee": "1.01782128",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-03T02:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-af5f7874399a027d20db25e1",
+      "order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "sell",
+      "price": "114.94",
+      "contract_quantity": "9.688",
+      "fee": "1.11353872",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-03T14:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-d726b0b0bad49efc7463b95d",
+      "order_id": "ethv2-cdef45d77a44879cd3810196",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "buy",
+      "price": "107.06",
+      "contract_quantity": "9.594",
+      "fee": "1.02713364",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-04T02:00:00+00:00"
+    },
+    {
+      "fill_id": "replay-fill-3971f68b65addde78d22bc22",
+      "order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+      "instrument": {
+        "instrument_id": "DEMO-USD-LINEAR",
+        "base_currency": "DEMO",
+        "quote_currency": "USD",
+        "settlement_currency": "USD",
+        "contract_size_base": "1",
+        "price_tick": "0.01",
+        "contract_step": "0.001",
+        "min_contracts": "0.001",
+        "min_notional": "1"
+      },
+      "side": "sell",
+      "price": "116.94",
+      "contract_quantity": "9.594",
+      "fee": "1.12192236",
+      "fee_currency": "USD",
+      "occurred_at": "2024-01-04T14:00:00+00:00"
+    }
+  ],
+  "risk_decisions": [
+    {
+      "signal_id": "signal-b91776a1dc1a9a62cfb6",
+      "decision_time": "2024-01-01T04:00:00+00:00",
+      "execution_time": "2024-01-01T04:00:00+00:00",
+      "action": "long",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-b9177-12c792a328f4420a",
+          "stage": "signal",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-9f33cd9b68f10f8ced34",
+            "decision_time": "2024-01-01T04:00:00+00:00",
+            "proposal": {
+              "action": "long",
+              "metadata": {},
+              "reason": "teaching-close-above-mean"
+            },
+            "signal_id": "signal-b91776a1dc1a9a62cfb6",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-01T03:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-b9177-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-b9177-50095174dd39f04c",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+            "contract_quantity": "9.703",
+            "created_at": "2024-01-01T04:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-b91776a1dc1a9a62cfb6",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": false,
+            "reference_price": "103.06",
+            "side": "buy"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b9177-e80918fed28a4906",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+            "event_id": "submit-fc34b0706e05f4e3a85a3e29",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-01T04:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b9177-57694c689844a506",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+            "event_id": "ack-fc34b0706e05f4e3a85a3e29",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-fc34b0706e05f4e3a85a3e29",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-01T04:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b9177-b31f689dbbefe271",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+            "event_id": "fill-event-5240a25a72d97b94dd885128",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-fc34b0706e05f4e3a85a3e29",
+            "fill_contract_quantity": "9.703",
+            "fill_price": "103.06",
+            "occurred_at": "2024-01-01T04:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-b9177-2db6903ee7c8a322",
+          "stage": "fill",
+          "occurred_at": "2024-01-01T04:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.703",
+            "fee": "0.99999118",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-2f36fd288dd8fe24232b2732",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-01T04:00:00+00:00",
+            "order_id": "ethv2-c2ac1955737ed55aa6e4ba0e",
+            "price": "103.06",
+            "side": "buy"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-edbde85b0bcf72d6e8dd",
+      "decision_time": "2024-01-01T14:00:00+00:00",
+      "execution_time": "2024-01-01T14:00:00+00:00",
+      "action": "exit",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-edbde-ca6197204dd7511b",
+          "stage": "signal",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-61ff882eddd9c6657f27",
+            "decision_time": "2024-01-01T14:00:00+00:00",
+            "proposal": {
+              "action": "exit",
+              "metadata": {},
+              "reason": "teaching-flat-target"
+            },
+            "signal_id": "signal-edbde85b0bcf72d6e8dd",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-01T13:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-edbde-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-edbde-3d50d8f4c5327ec8",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+            "contract_quantity": "9.703",
+            "created_at": "2024-01-01T14:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-edbde85b0bcf72d6e8dd",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": true,
+            "reference_price": "111.94",
+            "side": "sell"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-edbde-2749a76d34f37674",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+            "event_id": "submit-ce783e213a8210abbe976c53",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-01T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-edbde-fbab88b5320bc2c1",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+            "event_id": "ack-ce783e213a8210abbe976c53",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-ce783e213a8210abbe976c53",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-01T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-edbde-38e0b6dcdf8b5c32",
+          "stage": "order_event",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+            "event_id": "fill-event-fe48f429ae655ee207a0c592",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-ce783e213a8210abbe976c53",
+            "fill_contract_quantity": "9.703",
+            "fill_price": "111.94",
+            "occurred_at": "2024-01-01T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-edbde-b594ef3bea5835e1",
+          "stage": "fill",
+          "occurred_at": "2024-01-01T14:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.703",
+            "fee": "1.08615382",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-d151ac12014dedb2fb734b99",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-01T14:00:00+00:00",
+            "order_id": "ethv2-4415f2fde0178d0b6f7598fb",
+            "price": "111.94",
+            "side": "sell"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-c558db50e8a316570b2e",
+      "decision_time": "2024-01-02T02:00:00+00:00",
+      "execution_time": "2024-01-02T02:00:00+00:00",
+      "action": "long",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-c558d-530e6c83a7d4a7ac",
+          "stage": "signal",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-cfd7c77116629e2f2a07",
+            "decision_time": "2024-01-02T02:00:00+00:00",
+            "proposal": {
+              "action": "long",
+              "metadata": {},
+              "reason": "teaching-close-above-mean"
+            },
+            "signal_id": "signal-c558db50e8a316570b2e",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-02T01:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-c558d-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-c558d-455a0f56fed7f032",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-7ddd5472018106fda4c661fb",
+            "contract_quantity": "9.784",
+            "created_at": "2024-01-02T02:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-c558db50e8a316570b2e",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": false,
+            "reference_price": "103.06",
+            "side": "buy"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-c558d-43b4e87142a8722b",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-7ddd5472018106fda4c661fb",
+            "event_id": "submit-32d56da66dd6e25054c5dd3e",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-02T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-c558d-3ec310c5c781d6d2",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-7ddd5472018106fda4c661fb",
+            "event_id": "ack-32d56da66dd6e25054c5dd3e",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-32d56da66dd6e25054c5dd3e",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-02T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-c558d-2b0ad817c3a72af6",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-7ddd5472018106fda4c661fb",
+            "event_id": "fill-event-00bf325b9127b870e35d494a",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-32d56da66dd6e25054c5dd3e",
+            "fill_contract_quantity": "9.784",
+            "fill_price": "103.06",
+            "occurred_at": "2024-01-02T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-c558d-1d47b3a0832a36d6",
+          "stage": "fill",
+          "occurred_at": "2024-01-02T02:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.784",
+            "fee": "1.00833904",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-dc599e5df1ca032713519117",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-02T02:00:00+00:00",
+            "order_id": "ethv2-7ddd5472018106fda4c661fb",
+            "price": "103.06",
+            "side": "buy"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-05e9bdd0bced3c75707c",
+      "decision_time": "2024-01-02T14:00:00+00:00",
+      "execution_time": "2024-01-02T14:00:00+00:00",
+      "action": "exit",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-05e9b-eaf13a5a89763333",
+          "stage": "signal",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-c99ec6da49deb79a7092",
+            "decision_time": "2024-01-02T14:00:00+00:00",
+            "proposal": {
+              "action": "exit",
+              "metadata": {},
+              "reason": "teaching-flat-target"
+            },
+            "signal_id": "signal-05e9bdd0bced3c75707c",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-02T13:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-05e9b-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-05e9b-c10fb888e4b119f2",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+            "contract_quantity": "9.784",
+            "created_at": "2024-01-02T14:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-05e9bdd0bced3c75707c",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": true,
+            "reference_price": "112.94",
+            "side": "sell"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-05e9b-ff7771f420b98d53",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+            "event_id": "submit-f3564fc4fab4c6f1903386e0",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-02T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-05e9b-cf56c13fb4828c37",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+            "event_id": "ack-f3564fc4fab4c6f1903386e0",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-f3564fc4fab4c6f1903386e0",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-02T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-05e9b-cf30d703baae621b",
+          "stage": "order_event",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+            "event_id": "fill-event-1bd3f95532f936e06d10e7e5",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-f3564fc4fab4c6f1903386e0",
+            "fill_contract_quantity": "9.784",
+            "fill_price": "112.94",
+            "occurred_at": "2024-01-02T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-05e9b-c9e359c5d89f6858",
+          "stage": "fill",
+          "occurred_at": "2024-01-02T14:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.784",
+            "fee": "1.10500496",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-fe092707e26a25b0e2903bdf",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-02T14:00:00+00:00",
+            "order_id": "ethv2-0b29e2e2ebcb879b42b618f5",
+            "price": "112.94",
+            "side": "sell"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-292e5aa111ad7f074b91",
+      "decision_time": "2024-01-03T02:00:00+00:00",
+      "execution_time": "2024-01-03T02:00:00+00:00",
+      "action": "long",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-292e5-cd8379996df1655e",
+          "stage": "signal",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-ce14bedda6d1a3ba026e",
+            "decision_time": "2024-01-03T02:00:00+00:00",
+            "proposal": {
+              "action": "long",
+              "metadata": {},
+              "reason": "teaching-close-above-mean"
+            },
+            "signal_id": "signal-292e5aa111ad7f074b91",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-03T01:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-292e5-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-292e5-381a78728a987ab0",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-d7f3311220f94cd8d194759e",
+            "contract_quantity": "9.688",
+            "created_at": "2024-01-03T02:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-292e5aa111ad7f074b91",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": false,
+            "reference_price": "105.06",
+            "side": "buy"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-292e5-91a36cb0f31acbce",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-d7f3311220f94cd8d194759e",
+            "event_id": "submit-d9c059d5c0d9521371bfbe33",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-03T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-292e5-a5e3db5607e2b7e1",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-d7f3311220f94cd8d194759e",
+            "event_id": "ack-d9c059d5c0d9521371bfbe33",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-d9c059d5c0d9521371bfbe33",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-03T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-292e5-35647991c5a8ae18",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-d7f3311220f94cd8d194759e",
+            "event_id": "fill-event-1a2d39da8f40d44fc067a319",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-d9c059d5c0d9521371bfbe33",
+            "fill_contract_quantity": "9.688",
+            "fill_price": "105.06",
+            "occurred_at": "2024-01-03T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-292e5-04a6342bda439dcd",
+          "stage": "fill",
+          "occurred_at": "2024-01-03T02:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.688",
+            "fee": "1.01782128",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-f0883ad9513a6356cb598fd6",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-03T02:00:00+00:00",
+            "order_id": "ethv2-d7f3311220f94cd8d194759e",
+            "price": "105.06",
+            "side": "buy"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-8c3c5d2f20ad909e1471",
+      "decision_time": "2024-01-03T14:00:00+00:00",
+      "execution_time": "2024-01-03T14:00:00+00:00",
+      "action": "exit",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-8c3c5-f6ef721e841ca7d5",
+          "stage": "signal",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-1569531fa149741cf665",
+            "decision_time": "2024-01-03T14:00:00+00:00",
+            "proposal": {
+              "action": "exit",
+              "metadata": {},
+              "reason": "teaching-flat-target"
+            },
+            "signal_id": "signal-8c3c5d2f20ad909e1471",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-03T13:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-8c3c5-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-8c3c5-d9bb58ed157e117c",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+            "contract_quantity": "9.688",
+            "created_at": "2024-01-03T14:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-8c3c5d2f20ad909e1471",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": true,
+            "reference_price": "114.94",
+            "side": "sell"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-8c3c5-1a79e934cbe23955",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+            "event_id": "submit-26d34c44640b4a45f3d60d1c",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-03T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-8c3c5-1c6ebe81672a295c",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+            "event_id": "ack-26d34c44640b4a45f3d60d1c",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-26d34c44640b4a45f3d60d1c",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-03T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-8c3c5-1cd55723413bbf23",
+          "stage": "order_event",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+            "event_id": "fill-event-5fcf7daf3f968cfee566dc4a",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-26d34c44640b4a45f3d60d1c",
+            "fill_contract_quantity": "9.688",
+            "fill_price": "114.94",
+            "occurred_at": "2024-01-03T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-8c3c5-d2135857d2a9c874",
+          "stage": "fill",
+          "occurred_at": "2024-01-03T14:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.688",
+            "fee": "1.11353872",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-af5f7874399a027d20db25e1",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-03T14:00:00+00:00",
+            "order_id": "ethv2-6cb6dc44b3be1fbe00b2f7ec",
+            "price": "114.94",
+            "side": "sell"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-b4e74b50445e92080ec4",
+      "decision_time": "2024-01-04T02:00:00+00:00",
+      "execution_time": "2024-01-04T02:00:00+00:00",
+      "action": "long",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-b4e74-72d22451d81da43f",
+          "stage": "signal",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-0bdd7f557b7186f38d84",
+            "decision_time": "2024-01-04T02:00:00+00:00",
+            "proposal": {
+              "action": "long",
+              "metadata": {},
+              "reason": "teaching-close-above-mean"
+            },
+            "signal_id": "signal-b4e74b50445e92080ec4",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-04T01:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-b4e74-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-b4e74-837374b54a5d0b7a",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-cdef45d77a44879cd3810196",
+            "contract_quantity": "9.594",
+            "created_at": "2024-01-04T02:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-b4e74b50445e92080ec4",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": false,
+            "reference_price": "107.06",
+            "side": "buy"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b4e74-c140085f25c4ef1b",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-cdef45d77a44879cd3810196",
+            "event_id": "submit-41af920b39a443653eaa4819",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-04T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b4e74-b0affa286cec16be",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-cdef45d77a44879cd3810196",
+            "event_id": "ack-41af920b39a443653eaa4819",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-41af920b39a443653eaa4819",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-04T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-b4e74-6b52e00baad01ad5",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-cdef45d77a44879cd3810196",
+            "event_id": "fill-event-4281a635a703383ce13d426a",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-41af920b39a443653eaa4819",
+            "fill_contract_quantity": "9.594",
+            "fill_price": "107.06",
+            "occurred_at": "2024-01-04T02:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-b4e74-5f8b48b0acc8b23e",
+          "stage": "fill",
+          "occurred_at": "2024-01-04T02:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.594",
+            "fee": "1.02713364",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-d726b0b0bad49efc7463b95d",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-04T02:00:00+00:00",
+            "order_id": "ethv2-cdef45d77a44879cd3810196",
+            "price": "107.06",
+            "side": "buy"
+          }
+        }
+      ]
+    },
+    {
+      "signal_id": "signal-0b3a78c8031275887872",
+      "decision_time": "2024-01-04T14:00:00+00:00",
+      "execution_time": "2024-01-04T14:00:00+00:00",
+      "action": "exit",
+      "approved": true,
+      "reasons": [],
+      "filled": true,
+      "audit": [
+        {
+          "audit_id": "audit-signal-signal-0b3a7-85e9de4274e60d35",
+          "stage": "signal",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "decision_id": "decision-c1a5b46fb6ac3975a2a3",
+            "decision_time": "2024-01-04T14:00:00+00:00",
+            "proposal": {
+              "action": "exit",
+              "metadata": {},
+              "reason": "teaching-flat-target"
+            },
+            "signal_id": "signal-0b3a78c8031275887872",
+            "source_candle_key": "DEMO-USD-LINEAR|3600|2024-01-04T13:00:00+00:00"
+          }
+        },
+        {
+          "audit_id": "audit-risk_decision-signal-0b3a7-061d27f1e356900f",
+          "stage": "risk_decision",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "approved": true,
+            "kill_switch_reason": "synthetic offline demo only",
+            "reasons": [],
+            "reconciliation_fresh": true
+          }
+        },
+        {
+          "audit_id": "audit-order_intent-signal-0b3a7-72652027d01a0a64",
+          "stage": "order_intent",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+            "contract_quantity": "9.594",
+            "created_at": "2024-01-04T14:00:00+00:00",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "intent_id": "signal-0b3a78c8031275887872",
+            "limit_price": null,
+            "order_type": "market",
+            "reduce_only": true,
+            "reference_price": "116.94",
+            "side": "sell"
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-0b3a7-d8233ac7b0e9b333",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+            "event_id": "submit-e9fd4c889ac5839371e74568",
+            "event_type": "submit",
+            "exchange_order_id": null,
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-04T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-0b3a7-03e5f3a2d077b6f3",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+            "event_id": "ack-e9fd4c889ac5839371e74568",
+            "event_type": "acknowledge",
+            "exchange_order_id": "replay-order-e9fd4c889ac5839371e74568",
+            "fill_contract_quantity": null,
+            "fill_price": null,
+            "occurred_at": "2024-01-04T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-order_event-signal-0b3a7-2975c939a9296f44",
+          "stage": "order_event",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "client_order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+            "event_id": "fill-event-5e0f68d90405aa78b875cb96",
+            "event_type": "fill",
+            "exchange_order_id": "replay-order-e9fd4c889ac5839371e74568",
+            "fill_contract_quantity": "9.594",
+            "fill_price": "116.94",
+            "occurred_at": "2024-01-04T14:00:00+00:00",
+            "reason": null
+          }
+        },
+        {
+          "audit_id": "audit-fill-signal-0b3a7-f096f0b4dc625a3e",
+          "stage": "fill",
+          "occurred_at": "2024-01-04T14:00:00+00:00",
+          "payload": {
+            "contract_quantity": "9.594",
+            "fee": "1.12192236",
+            "fee_currency": "USD",
+            "fill_id": "replay-fill-3971f68b65addde78d22bc22",
+            "instrument": {
+              "base_currency": "DEMO",
+              "contract_size_base": "1",
+              "contract_step": "0.001",
+              "instrument_id": "DEMO-USD-LINEAR",
+              "min_contracts": "0.001",
+              "min_notional": "1",
+              "price_tick": "0.01",
+              "quote_currency": "USD",
+              "settlement_currency": "USD"
+            },
+            "occurred_at": "2024-01-04T14:00:00+00:00",
+            "order_id": "ethv2-06e7e2a6ab445ab3d53bfd67",
+            "price": "116.94",
+            "side": "sell"
+          }
+        }
+      ]
+    }
+  ],
+  "result_sha256": "a18d5b357b176f63a8cea659eeb400c26c92b39a5f195e31c7f3890868f94523"
+}

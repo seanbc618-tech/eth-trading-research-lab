@@ -1,0 +1,182 @@
+{
+  "transformations": [
+    "Rename ethbot namespace to quantlab",
+    "Rename v2_tests.support import to tests.support"
+  ],
+  "files": [
+    {
+      "source": "src/ethbot/domain/__init__.py",
+      "source_sha256": "cad26993b12816d660057869c893a8e492aba9a461dcd8de6d93a7edee303903",
+      "export": "src/quantlab/domain/__init__.py",
+      "export_sha256": "cad26993b12816d660057869c893a8e492aba9a461dcd8de6d93a7edee303903"
+    },
+    {
+      "source": "src/ethbot/domain/decimal_utils.py",
+      "source_sha256": "c405c81777ff6b41ae5107ff3fc9ce001aa2d4cbf41c8698127a44ec889f5526",
+      "export": "src/quantlab/domain/decimal_utils.py",
+      "export_sha256": "c405c81777ff6b41ae5107ff3fc9ce001aa2d4cbf41c8698127a44ec889f5526"
+    },
+    {
+      "source": "src/ethbot/domain/fill.py",
+      "source_sha256": "911869dd5424717876d3d0fdcf9e7d59a778c89ed48e8e8d03a51ddb70333f9d",
+      "export": "src/quantlab/domain/fill.py",
+      "export_sha256": "911869dd5424717876d3d0fdcf9e7d59a778c89ed48e8e8d03a51ddb70333f9d"
+    },
+    {
+      "source": "src/ethbot/domain/instrument.py",
+      "source_sha256": "46b23c8e694ad7d6b23a867185f3bb39dd91be9377ee97b460c964948c91ec78",
+      "export": "src/quantlab/domain/instrument.py",
+      "export_sha256": "46b23c8e694ad7d6b23a867185f3bb39dd91be9377ee97b460c964948c91ec78"
+    },
+    {
+      "source": "src/ethbot/domain/ledger.py",
+      "source_sha256": "b2fba0e4ae106113316e4d3840c0bc0b0886749de0c2fcbe7dcf376177467416",
+      "export": "src/quantlab/domain/ledger.py",
+      "export_sha256": "b2fba0e4ae106113316e4d3840c0bc0b0886749de0c2fcbe7dcf376177467416"
+    },
+    {
+      "source": "src/ethbot/domain/order.py",
+      "source_sha256": "d20e5adcac9703751c75585d723b910c071946213b20ad7c02f1a245bd68f5a0",
+      "export": "src/quantlab/domain/order.py",
+      "export_sha256": "d20e5adcac9703751c75585d723b910c071946213b20ad7c02f1a245bd68f5a0"
+    },
+    {
+      "source": "src/ethbot/domain/order_state.py",
+      "source_sha256": "7ab021950f1afe05b52b3e116572ff752f500832830661a073801b12be2c012f",
+      "export": "src/quantlab/domain/order_state.py",
+      "export_sha256": "7ab021950f1afe05b52b3e116572ff752f500832830661a073801b12be2c012f"
+    },
+    {
+      "source": "src/ethbot/domain/position.py",
+      "source_sha256": "2004ac66016cf3a3995c5b9e1d3deeeef41767626b0099cd6cc0547c0a1b7a50",
+      "export": "src/quantlab/domain/position.py",
+      "export_sha256": "2004ac66016cf3a3995c5b9e1d3deeeef41767626b0099cd6cc0547c0a1b7a50"
+    },
+    {
+      "source": "src/ethbot/domain/sizing.py",
+      "source_sha256": "2a580150bf2b05f2bdbb0714ff743098504d35615967696c00b78667d53aa3b6",
+      "export": "src/quantlab/domain/sizing.py",
+      "export_sha256": "2a580150bf2b05f2bdbb0714ff743098504d35615967696c00b78667d53aa3b6"
+    },
+    {
+      "source": "src/ethbot/execution/__init__.py",
+      "source_sha256": "9e26243f15e76a5ae55221b572367d7aa6308ecabb55d17588500db022abca71",
+      "export": "src/quantlab/execution/__init__.py",
+      "export_sha256": "9e26243f15e76a5ae55221b572367d7aa6308ecabb55d17588500db022abca71"
+    },
+    {
+      "source": "src/ethbot/execution/broker.py",
+      "source_sha256": "2923287239e7ef0aee39bd8cc8d33c0a74908294ebece5175a12ec768a241476",
+      "export": "src/quantlab/execution/broker.py",
+      "export_sha256": "765fcfa4de381a5e79999ed04a6607e6b67bae7e5ac4c6416e4b32ff790f5f71"
+    },
+    {
+      "source": "src/ethbot/execution/paper_broker.py",
+      "source_sha256": "39539766c39d2baa55d716859ec231166dcdaad577b7fd066f11630d9f8315f8",
+      "export": "src/quantlab/execution/paper_broker.py",
+      "export_sha256": "7aa99f8c215da7f34aeed8651095308f6eac5653251ac23030426c8cf512cbee"
+    },
+    {
+      "source": "src/ethbot/execution/replay_broker.py",
+      "source_sha256": "0334555e1745b9c9c1e6108490c2eb566c72d0444e9957b673241f2ce618a1f5",
+      "export": "src/quantlab/execution/replay_broker.py",
+      "export_sha256": "a3e6f30c530b8fd30db903a40fe35429d5c865890f5123940985e5e4de18c05d"
+    },
+    {
+      "source": "src/ethbot/execution/workflow.py",
+      "source_sha256": "1d293b09bf6eb17d681fa4958150083a6ce5387bda8d5202389c5b33259f2803",
+      "export": "src/quantlab/execution/workflow.py",
+      "export_sha256": "539f131fd4df9e2e13031fafdae6568ded876a68535fe0f9a7d243803638fa38"
+    },
+    {
+      "source": "src/ethbot/persistence/__init__.py",
+      "source_sha256": "4862f174d4e2ce9864c883ff1c06d2d9dbe3660ef994f56a52ae6702362e18d5",
+      "export": "src/quantlab/persistence/__init__.py",
+      "export_sha256": "4862f174d4e2ce9864c883ff1c06d2d9dbe3660ef994f56a52ae6702362e18d5"
+    },
+    {
+      "source": "src/ethbot/persistence/serde.py",
+      "source_sha256": "4f0a3d40bec11734c41362370b7dac02094d2c2d501e2971a56d33b73536c54f",
+      "export": "src/quantlab/persistence/serde.py",
+      "export_sha256": "ef8369a532a9172d84383d4084d6715e7ff87810025cd66bb12c000ec38eba55"
+    },
+    {
+      "source": "src/ethbot/persistence/sqlite_store.py",
+      "source_sha256": "f2db809a4f3081cb344f626fdbca121559b6c3a7d3482f37ca6a3a6439e90916",
+      "export": "src/quantlab/persistence/sqlite_store.py",
+      "export_sha256": "505c1f040f62549da0eaf78345404bcaa77c2fbfbc568487eb2bb1530a089651"
+    },
+    {
+      "source": "src/ethbot/risk/__init__.py",
+      "source_sha256": "ad83055f36655b679df82757174f376a2d00826a8c914b5033b83eed42b0b65c",
+      "export": "src/quantlab/risk/__init__.py",
+      "export_sha256": "ad83055f36655b679df82757174f376a2d00826a8c914b5033b83eed42b0b65c"
+    },
+    {
+      "source": "src/ethbot/risk/limits.py",
+      "source_sha256": "8bdcf10d3bd639b7c0655b54a2e0d66de89701402fe82f49c734b48d9bb9e201",
+      "export": "src/quantlab/risk/limits.py",
+      "export_sha256": "c142f8ec1b4ecc490b147b98b3ba54935d3557412bf4f57fb77d9d6024333fbd"
+    },
+    {
+      "source": "src/ethbot/market_data/candle.py",
+      "source_sha256": "cda6d6ac0a94a4378890b174a42625b7a7d1e5c2615781fe6c62704a575cfbdd",
+      "export": "src/quantlab/market_data/candle.py",
+      "export_sha256": "d9a63ecc25b60ec26cb31a73aab6d31e9b1b0b8c29d14eefac92e8d5e2d5f25b"
+    },
+    {
+      "source": "src/ethbot/market_data/event_clock.py",
+      "source_sha256": "5ccbc76283aecfceb3dcb43917fc04666480c02c78d1278431b33094e0ec4ef2",
+      "export": "src/quantlab/market_data/event_clock.py",
+      "export_sha256": "5ccbc76283aecfceb3dcb43917fc04666480c02c78d1278431b33094e0ec4ef2"
+    },
+    {
+      "source": "src/ethbot/market_data/replay.py",
+      "source_sha256": "610be5e450183222e8c8c44f3ae05b80f40461db01ab97b8d080a4a395e46327",
+      "export": "src/quantlab/market_data/replay.py",
+      "export_sha256": "610be5e450183222e8c8c44f3ae05b80f40461db01ab97b8d080a4a395e46327"
+    },
+    {
+      "source": "v2_tests/support.py",
+      "source_sha256": "fff9cc3443d3a0638fb51bdc4561e84dfcbfd43bdc61a5e296d330fa57d9fefe",
+      "export": "tests/support.py",
+      "export_sha256": "389df5bb61b8524b55442d8a00b3603fffab5f6f1deeee73b819a2767a92ebab"
+    },
+    {
+      "source": "v2_tests/test_instrument_and_sizing.py",
+      "source_sha256": "a775313b3d6789f71a151eccb62cdc5b01c6504c124b583be4ccc99385e3a045",
+      "export": "tests/test_instrument_and_sizing.py",
+      "export_sha256": "1d41500260e2c8f3d99512e1bd2f46ba720d421d8d5452fdab6b85369b296a26"
+    },
+    {
+      "source": "v2_tests/test_ledger.py",
+      "source_sha256": "9b0c9b4b2115c233a628e6305ac2cb4374d13ea269052bf9f0870f224aba10d6",
+      "export": "tests/test_ledger.py",
+      "export_sha256": "8a626d5355d9293dee2294d8abef00ba4a3f7b421f3a42b60191e6cda67b6bcd"
+    },
+    {
+      "source": "v2_tests/test_order_state_machine.py",
+      "source_sha256": "8ed57a60ca487eeebbee5b0e1681f6fa2b34222f96c49095ba41fe89e241720e",
+      "export": "tests/test_order_state_machine.py",
+      "export_sha256": "7781854c0c27b627423901e539cfdccf4be62d28bfd846e4ed3adcdfaee03c4f"
+    },
+    {
+      "source": "v2_tests/test_sqlite_store.py",
+      "source_sha256": "d8c7a0264e6056779342fd67f15e45f4db4c15ed6fa93de3800847d51c65c692",
+      "export": "tests/test_sqlite_store.py",
+      "export_sha256": "b9ef4f88e4216dec341b955aad8212178e2bcc5c4087d8d1b20e92c2b38c1372"
+    },
+    {
+      "source": "v2_tests/test_confirmed_candle_replay.py",
+      "source_sha256": "0359631790b1c52a7aa38a4e8615855dad6840bd53d36270a6fbf3544e540ade",
+      "export": "tests/test_confirmed_candle_replay.py",
+      "export_sha256": "777d4e94e2672f7ad4e06ddb2662446059ab02f6fe714d91090392a648c2e2cc"
+    },
+    {
+      "source": "v2_tests/test_execution_brokers_and_workflow.py",
+      "source_sha256": "9875fb9da5c2a46093b60ea2f231dcd7a57f87550a26f1d8b16b2a1580088faf",
+      "export": "tests/test_execution_brokers_and_workflow.py",
+      "export_sha256": "0a37f46e6223b40bacf7a3c8ab1f249c97d59f21fb51d048825e3604299f78f3"
+    }
+  ]
+}
